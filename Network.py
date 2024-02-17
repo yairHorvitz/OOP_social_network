@@ -26,6 +26,7 @@ class SocialNetwork:
         Twitter = self.__init__(twitter)
         print("The social network "+Twitter+" was created!")
 
+
     def login(self, name, password): #connect to the net
         if name in self.user.name & self.user.name.password == password:
             name.flag == True
